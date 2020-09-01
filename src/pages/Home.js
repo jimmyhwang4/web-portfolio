@@ -23,7 +23,7 @@ function Home() {
                             <h1>LEARNING</h1>
                             <h4>Work & Experience</h4>
                         </a>
-                        <a className="passionsBox music" href="/">
+                        <a className="passionsBox music" href="/projects/music-production">
                             <h1>MUSIC</h1>
                             <h4>Design & Production</h4>
                         </a>

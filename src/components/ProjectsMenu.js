@@ -13,7 +13,7 @@ function ProjectsMenu() {
                     <h4>VISUAL</h4>
                 </div>
             </div>
-            <a href="/projects/web-dev" className="projectsMenuContainer">
+            <a href="/projects/web-development" className="projectsMenuContainer">
                 <div className="projectsMenuContent">
                     <p>Web Development</p>
                 </div>
@@ -33,7 +33,7 @@ function ProjectsMenu() {
                     <h4>AURAL</h4>
                 </div>
             </div>
-            <a href="/projects/music-prod" className="projectsMenuContainer">
+            <a href="/projects/music-production" className="projectsMenuContainer">
                 <div className="projectsMenuContent">
                     <p>Music Production</p>
                 </div>

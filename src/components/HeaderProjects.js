@@ -12,7 +12,7 @@ function HeaderProjects() {
                         <a href="/">HOME</a>
                     </div>
                     <div className="headerContentSelected">
-                        <a href="/projects/web-dev">PROJECTS</a>
+                        <a href="/projects/web-development">PROJECTS</a>
                     </div>
                     <div className="headerContent">
                         <a href="/experience">EXPERIENCE</a>
