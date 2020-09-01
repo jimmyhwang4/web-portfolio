@@ -1,6 +1,4 @@
 import React from 'react';
-import github from '../images/github.png';
-import linkedin from '../images/linkedin.png';
 
 class HeaderHome extends React.Component {
     state = {className: ""};
@@ -45,8 +43,8 @@ class HeaderHome extends React.Component {
                         </div>
                     </div>
                     <div className="socialMenu">
-                        <a href="https://github.com/jimmyhwang4" target="_blank"><img src={github}></img></a>
-                        <a href="https://www.linkedin.com/in/jimmy-hwang-564958162/" target="_blank"><img src={linkedin}></img></a>
+                        <a href="https://github.com/jimmyhwang4" target="_blank"><img src="/socials/github.png"></img></a>
+                        <a href="https://www.linkedin.com/in/jimmy-hwang-564958162/" target="_blank"><img src="/socials/linkedin.png"></img></a>
                     </div>
                 </div>
             </header>

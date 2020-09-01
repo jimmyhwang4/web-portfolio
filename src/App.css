@@ -203,7 +203,7 @@ header.scroll {
 }
 
 .design {
-    background-image: url("/design.jpg");
+    background-image: url("/home/design.jpg");
     background-size: cover;
 }
 
@@ -212,7 +212,7 @@ header.scroll {
 }
 
 .learning {
-    background-image: url("/learning.jpg");
+    background-image: url("/home/learning.jpg");
     background-size: cover;
 }
 
@@ -221,7 +221,7 @@ header.scroll {
 }
 
 .music {
-    background-image: url("/music.jpg");
+    background-image: url("/home/music.jpg");
     background-size: cover;
 }
 
@@ -253,10 +253,25 @@ header.scroll {
     width: 100%;
     padding-bottom: 40px;
 
-    background: rgb(250, 250, 250);
+    background: rgb(240, 240, 240);
     
     display: flex;
     flex-direction: column;
+}
+
+.containerTitle {
+    width: 100%;
+    height: 36px;
+
+    background: rgb(250, 250, 250);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    
+    display: flex;
+    align-items: center;
+}
+
+.containerTitle h4 {
+    margin-left: 36px;
 }
 
 .containerProject {
@@ -270,11 +285,231 @@ header.scroll {
 }
 
 .container2Project {
-    width: 100%;
-    
+    width: calc(100% - 36px);
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+}
+
+.webBoxContainer {
+    width: 45%;
+    height: 300px;
+
+    margin-left: 36px;
+    margin-top: 36px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.webBox1 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/projects/web-dev/imager.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5%;
+
+    font-size: 16px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webBox1:hover {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/projects/web-dev/imager.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.webBox1 #webLinks {
+    filter: invert(1);
+    display: none;
+}
+
+.webBox1:hover #webLinks {
+    display: block;
+}
+
+.webBox1 h1 {
+    margin-bottom: 0px;
+}
+
+.webBox2 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/projects/web-dev/covid-19.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5%;
+
+    font-size: 16px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webBox2:hover {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/projects/web-dev/covid-19.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.webBox2 #webLinks {
+    filter: invert(1);
+    display: none;
+}
+
+.webBox2:hover #webLinks {
+    display: block;
+}
+
+.webBox2 h1 {
+    margin-bottom: 0px;
+}
+
+.webBox3 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/projects/web-dev/weather.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5%;
+
+    font-size: 16px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webBox3:hover {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/projects/web-dev/weather.png");
+    background-size: cover;
+}
+
+.webBox3 #webLinks {
+    filter: invert(1);
+    display: none;
+}
+
+.webBox3:hover #webLinks {
+    display: block;
+}
+
+.webBox3 h1 {
+    margin-bottom: 0px;
+}
+
+.webBox4 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/projects/web-dev/jang-soo-sushi-bar.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5%;
+
+    font-size: 16px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webBox4:hover {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/projects/web-dev/jang-soo-sushi-bar.png");
+    background-size: cover;
+}
+
+.webBox4 #webLinks {
+    filter: invert(1);
+    display: none;
+}
+
+.webBox4:hover #webLinks {
+    display: block;
+}
+
+.webBox4 h1 {
+    margin-bottom: 0px;
+}
+
+.webBox5 {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/projects/web-dev/css-sketchbook.png");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5%;
+
+    font-size: 16px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webBox5:hover {
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/projects/web-dev/css-sketchbook.png");
+    background-size: cover;
+}
+
+.webBox5 #webLinks {
+    filter: invert(1);
+    display: none;
+}
+
+.webBox5:hover #webLinks {
+    display: block;
+}
+
+.webBox5 h1 {
+    margin-bottom: 0px;
+}
+
+.webLinksWidth {
+    width: 90px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.webLinksContent:hover {
+    opacity: 0.5;
 }
 
 .projectsMenuWrapper {
@@ -336,71 +571,50 @@ header.scroll {
     margin-left: 30px;
 }
 
-.webBoxContainer {
-    width: 600px;
-    height: 400px;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+/* GRAPHIC DESIGN */
+.container2ProjectGraphic {
+    width: calc(100% - 36px);
 }
 
-.webBox1 {
-    width: 90%;
-    height: 90%;
+.galleryContainer {
+    width: calc(100% - 36px);
+    margin-top: 36px;
+    margin-left: 36px;
+    padding: 0;
+    line-height: 0;
 
-    background-image: url("/imager.png");
-    background-size: cover;
-    background-position: center;
-
-    border: 1px solid rgb(219, 219, 219);
-    border-radius: 10%;
+    -webkit-column-count: 3 !important;
+    -webkit-column-gap: 36px;
+    -moz-column-count: 3 !important;
+    -moz-column-gap: 36px;
+    column-count: 3 !important;
+    column-gap: 36px; 
 }
 
-.webBox2 {
-    width: 90%;
-    height: 90%;
-
-    background-image: url("/covid-19.png");
-    background-size: cover;
-    background-position: center;
-
-    border: 1px solid rgb(219, 219, 219);
-    border-radius: 10%;
+.galleryContainer img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 36px;
 }
 
-.webBox3 {
-    width: 90%;
-    height: 90%;
+  /* PHOTOGRAPHY */
+  .galleryContainerPhoto {
+    width: calc(100% - 36px);
+    margin-top: 36px;
+    margin-left: 36px;
+    padding: 0;
+    line-height: 0;
 
-    background-image: url("/weather.png");
-    background-size: cover;
-    background-position: center;
-
-    border: 1px solid rgb(219, 219, 219);
-    border-radius: 10%;
+    -webkit-column-count: 4 !important;
+    -webkit-column-gap: 36px;
+    -moz-column-count: 4 !important;
+    -moz-column-gap: 36px;
+    column-count: 4 !important;
+    column-gap: 36px; 
 }
 
-.webBox4 {
-    width: 90%;
-    height: 90%;
-
-    background-image: url("/jang-soo-sushi-bar.png");
-    background-size: cover;
-    background-position: center;
-
-    border: 1px solid rgb(219, 219, 219);
-    border-radius: 10%;
-}
-
-.webBox5 {
-    width: 90%;
-    height: 90%;
-
-    background-image: url("/css-sketchbook.png");
-    background-size: cover;
-    background-position: center;
-
-    border: 1px solid rgb(219, 219, 219);
-    border-radius: 10%;
+.galleryContainerPhoto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 36px;
 }

@@ -8,7 +8,7 @@ function Home() {
         <div>
             <HeaderHome />
             <div className="wrapper">
-                <img src="./filler.jpg" width="100%" height="auto"></img>
+                <img src="/home/filler.jpg" width="100%" height="auto"></img>
                 <div className="container">
 
                     <div className="bigText">
@@ -21,11 +21,11 @@ function Home() {
                         </a>
                         <a className="passionsBox learning" href="/experience">
                             <h1>LEARNING</h1>
-                            <h4>Anything & Anytime</h4>
+                            <h4>Work & Experience</h4>
                         </a>
                         <a className="passionsBox music" href="/">
                             <h1>MUSIC</h1>
-                            <h4>EDM Production</h4>
+                            <h4>Design & Production</h4>
                         </a>
                     </div>
 
@@ -36,34 +36,34 @@ function Home() {
                     </div>
                     <div className="skillsRow">
                         <div className="skillsContainer">
-                            <img src="/html.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/html.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/css.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/css.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/js.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/js.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/react.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/react.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/node.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/node.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/git.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/git.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/wordpress.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/wordpress.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/photoshop.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/photoshop.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/illustrator.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/illustrator.png" height="80%" width="auto"></img>
                         </div>
                         <div className="skillsContainer">
-                            <img src="/indesign.png" height="80%" width="auto"></img>
+                            <img src="/home/skills/indesign.png" height="80%" width="auto"></img>
                         </div>
                     </div>
 
