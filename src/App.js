@@ -4,6 +4,8 @@ import './App.css';
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import ProjectsWebImager from "./pages/ProjectsWebImager";
+import ProjectsWebCovid19 from "./pages/ProjectsWebCovid19";
 import ProjectsGraphic from "./pages/ProjectsGraphic";
 import ProjectsPhotography from "./pages/ProjectsPhotography";
 import ProjectsMusicProd from "./pages/ProjectsMusicProd";
@@ -19,6 +21,12 @@ function App() {
         </Route>
         <Route to exact path="/projects/web-development">
           <Projects />
+        </Route>
+        <Route to exact path="/projects/web-development/imager">
+          <ProjectsWebImager />
+        </Route>
+        <Route to exact path="/projects/web-development/covid-19-tracker">
+          <ProjectsWebCovid19 />
         </Route>
         <Route to exact path="/projects/graphic-design">
           <ProjectsGraphic />

@@ -192,6 +192,8 @@ header.scroll {
     justify-content: center;
     align-items: center;
 
+    box-shadow: 0 0 18px -8px black;
+
     transition: 0.1s linear;
 }
 
@@ -292,8 +294,8 @@ header.scroll {
 }
 
 .webBoxContainer {
-    width: 47%;
-    height: 300px;
+    width: calc(50% - 36px);
+    height: 400px;
 
     margin-right: 36px;
     margin-bottom: 36px;
@@ -567,6 +569,78 @@ header.scroll {
     margin-left: 36px;
 }
 
+.containerTitle a {
+    text-decoration: none;
+    color: black;
+}
+
+.containerTitle a:hover {
+    border-bottom: 2px solid black;
+}
+
+.container2ProjectPage {
+    width: calc(100% - 72px);
+    margin-top: 36px;
+    margin-left: 36px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2ProjectPage video {
+    width: 100%;
+    height: auto;
+
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.projectPageWeb {
+    margin-top: 36px;
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectPageMobile {
+    margin-top: 36px;
+    
+    width: 100%;
+}
+
+.projectPageWebImg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectPageWebImg img {
+    width: calc(50% - 18px);
+    height: auto;
+    margin-bottom: 36px;
+
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.projectPageMobileImg{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectPageMobileImg img {
+    width: calc(33.33% - 27px);
+    height: auto;
+
+    border: 1px solid rgb(201, 201, 201);
+}
+
 /* GRAPHIC DESIGN */
 .container2ProjectGraphic {
     width: calc(100% - 36px);
@@ -639,8 +713,8 @@ header.scroll {
 }
 
 .youtubeContainer {
-    width: 47%;
-    height: 315px;
+    width: calc(50% - 36px);
+    height: 360px;
     margin-bottom: 36px;
     margin-left: 36px;
 }

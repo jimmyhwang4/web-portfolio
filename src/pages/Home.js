@@ -15,7 +15,7 @@ function Home() {
                         <h2>— PASSIONS —</h2>
                     </div>
                     <div className="passionsRow">
-                        <a className="passionsBox design" href="/projects/web-dev">
+                        <a className="passionsBox design" href="/projects/web-development">
                             <h1>DESIGN</h1>
                             <h4>Web & Graphic</h4>
                         </a>

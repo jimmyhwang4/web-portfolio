@@ -22,10 +22,10 @@ function Projects() {
                                 <div id="webLinks">
                                     <div className="webLinksWidth">
                                         <div className="webLinksContent">
-                                            {/* <a href=""><img src="/socials/website.png" width="36px" height="auto"></img></a> */}
+                                            <a href="/projects/web-development/imager"><img src="/socials/website.png" width="36px" height="auto"></img></a>
                                         </div>
                                         <div className="webLinksContent">
-                                            {/* <a href="" target="_blank"><img src="/socials/github.png" width="36px" height="auto"></img></a> */}
+                                            <a href="https://github.com/jimmyhwang4/imager" target="_blank"><img src="/socials/github.png" width="36px" height="auto"></img></a>
                                         </div>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ function Projects() {
                                 <div id="webLinks">
                                     <div className="webLinksWidth">
                                         <div className="webLinksContent">
-                                            {/* <a href=""><img src="/socials/website.png" width="36px" height="auto"></img></a> */}
+                                            <a href="/projects/web-development/covid-19-tracker"><img src="/socials/website.png" width="36px" height="auto"></img></a>
                                         </div>
                                         <div className="webLinksContent">
                                             <a href="https://github.com/jimmyhwang4/covid-19-tracker" target="_blank"><img src="/socials/github.png" width="36px" height="auto"></img></a>
@@ -54,10 +54,10 @@ function Projects() {
                                 <div id="webLinks">
                                     <div className="webLinksWidth">
                                         <div className="webLinksContent">
-                                            {/* <a href=""><img src="/socials/website.png" width="36px" height="auto"></img></a> */}
+                                            <a href="https://jimmy-weather-app.netlify.app" target="_blank"><img src="/socials/website.png" width="36px" height="auto"></img></a>
                                         </div>
                                         <div className="webLinksContent">
-                                            {/* <a href="" target="_blank"><img src="/socials/github.png" width="36px" height="auto"></img></a> */}
+                                            <a href="https://github.com/jimmyhwang4/weather-app" target="_blank"><img src="/socials/github.png" width="36px" height="auto"></img></a>
                                         </div>
                                     </div>
                                 </div>
