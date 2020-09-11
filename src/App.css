@@ -26,11 +26,13 @@ header.scroll {
     background-color: rgba(250, 250, 250, 0.9);
     border-bottom: 1px solid rgb(219, 219, 219);
     backdrop-filter: blur(8px);
+
+    box-shadow: 0 0 14px -8px black;
 }
 
 .headerEtc {
     position: fixed;
-    z-index: 999;
+    z-index: 998;
 
     width: 100%;
     height: 56px;
@@ -39,6 +41,8 @@ header.scroll {
     color: black;
     font-size: 18px;
     border-bottom: 1px solid rgb(219, 219, 219);
+
+    box-shadow: 0 0 14px -8px black;
 
     display: flex;
 }
@@ -112,7 +116,7 @@ header.scroll {
 }
 
 .socialMenu {
-    width: 84px;
+    width: 124px;
 
     display: flex;
     flex-direction: row;
@@ -134,8 +138,61 @@ header.scroll {
     z-index: 999;
 
     width: 100%;
-    height: 200px;
-    background: rgb(90, 90, 90);
+    height: 360px;
+    background: rgb(39, 39, 39);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerContainer {
+    width: calc(100% - 80px);
+
+    margin-bottom: 30px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerColumn {
+    max-width: 25%;
+
+    margin-top: 40px;
+    margin-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footerColumn h2 {
+    margin-bottom: 12px;
+
+    color: white;
+}
+
+.footerColumn h4 {
+    margin-bottom: 12px;
+
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+}
+
+.footerColumn p {
+    margin-top: -8px;
+
+    color: rgb(221, 221, 221);
+}
+
+.footerColumn a {
+    margin-bottom: 8px;
+    text-decoration: none;
+
+    color: rgb(221, 221, 221);
+    font-size: 16px;
 }
 
 /* HOME */
@@ -145,10 +202,25 @@ header.scroll {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background: rgb(240, 240, 240);
 }
 
 .container {
     width: 80%;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px -6px black;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 90%;
 }
 
 .line {
@@ -156,12 +228,14 @@ header.scroll {
     border-bottom: 1px solid rgb(219, 219, 219);
 
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .bigText {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
+
+    font-size: 24px;
 
     display: flex;
     justify-content: center;
@@ -179,7 +253,7 @@ header.scroll {
 
 .passionsBox {
     width: 30%;
-    height: 200px;
+    height: 180px;
     border: 1px solid rgb(219, 219, 219);
     border-radius: 5%;
 
@@ -199,7 +273,7 @@ header.scroll {
 
 .passionsBox:hover {
     width: 32%;
-    height: 220px;
+    height: 200px;
 
     font-size: 20px;
 }
@@ -242,8 +316,8 @@ header.scroll {
 }
 
 .skillsContainer {
-    width: 240px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
 
     display: flex;
     justify-content: center;
@@ -262,11 +336,16 @@ header.scroll {
 }
 
 .containerTitle {
+    position: fixed;
+    z-index: 999;
+
     width: 100%;
     height: 36px;
 
     background: rgb(250, 250, 250);
     border-bottom: 1px solid rgb(219, 219, 219);
+
+    box-shadow: -4px 8px 8px -12px black;
     
     display: flex;
     align-items: center;
@@ -285,7 +364,7 @@ header.scroll {
 
 .container2Project {
     width: calc(100% - 36px);
-    margin-top: 36px;
+    margin-top: 72px;
     margin-left: 36px;
 
     display: flex;
@@ -512,7 +591,7 @@ header.scroll {
 
 .projectsMenuWrapper {
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     margin-top: 56px;
 
     width: 208px;
@@ -522,13 +601,15 @@ header.scroll {
     
     display: flex;
     flex-direction: column;
+
+    box-shadow: 8px 0px 8px -12px black;
 }
 
 .projectsMenuTitle {
     width: 100%;
     height: 36px;
 
-    background: rgb(245, 245, 245);
+    background: rgb(250, 250, 250);
     font-size: 14px;
 
     display: flex;
@@ -580,7 +661,7 @@ header.scroll {
 
 .container2ProjectPage {
     width: calc(100% - 72px);
-    margin-top: 36px;
+    margin-top: 72px;
     margin-left: 36px;
 
     display: flex;
@@ -644,6 +725,7 @@ header.scroll {
 /* GRAPHIC DESIGN */
 .container2ProjectGraphic {
     width: calc(100% - 36px);
+    margin-top: 72px;
 }
 
 .galleryContainer {
@@ -667,8 +749,8 @@ header.scroll {
     margin-bottom: 36px;
 }
 
-  /* PHOTOGRAPHY */
-  .galleryContainerPhoto {
+/* PHOTOGRAPHY */
+    .galleryContainerPhoto {
     width: calc(100% - 36px);
     margin-top: 36px;
     margin-left: 36px;
@@ -717,4 +799,257 @@ header.scroll {
     height: 360px;
     margin-bottom: 36px;
     margin-left: 36px;
+}
+
+/* EXPERIENCE */
+.containerExperience {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experienceHeader {
+    width: 100%;
+    height: 200px;
+
+    margin-top: 57px;
+    
+    background-image: url("/experience/experience.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* JANG SOO SUSHI BAR */
+.experienceBox1 {
+    width: 90%;
+    height: 160px;
+    
+    background-image: url("/experience/jssb/jssb-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox1:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    display: block;
+}
+
+.experienceBox1:hover:after {
+    position: absolute;
+    content: "Web Developer";
+    color: white;
+    font-size: 24px;
+
+    display: block;
+}
+
+/* HARGREAVES */
+.experienceBox2 {
+    width: 90%;
+    height: 160px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    background-image: url("/experience/hargreaves-associates/hargreaves-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+    border: 1px solid rgb(201, 201, 201);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox2:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    display: block;
+}
+
+.experienceBox2:hover:after {
+    position: absolute;
+    content: "Web Consultant";
+    color: white;
+    font-size: 24px;
+
+    display: block;
+}
+
+/* MCW GLOBAL */
+.experienceBox3 {
+    width: 90%;
+    height: 160px;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    background-image: url("/experience/mcw-global/mcw-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+    border: 1px solid rgb(201, 201, 201);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox3:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    display: block;
+}
+
+.experienceBox3:hover:after {
+    position: absolute;
+    content: "Graphic Design Intern";
+    color: white;
+    font-size: 24px;
+
+    display: block;
+}
+
+/* GOODWALL/SPARKMARK */
+.experienceBox4 {
+    width: 90%;
+    height: 160px;
+
+    margin-bottom: 40px;
+    
+    background-image: url("/experience/goodwall/goodwall-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+    border: 1px solid rgb(201, 201, 201);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox4:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    display: block;
+}
+
+.experienceBox4:hover:after {
+    position: absolute;
+    content: "Graphic Designer";
+    color: white;
+    font-size: 24px;
+
+    display: block;
+}
+
+/* FRIENDS OF EBAY */
+.experienceBox5 {
+    width: 90%;
+    height: 160px;
+    
+    background-image: url("/experience/fob/fob-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+    border: 1px solid rgb(201, 201, 201);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox5:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+
+    display: block;
+}
+
+.experienceBox5:hover:after {
+    position: absolute;
+    content: "Graphic Design Intern";
+    color: white;
+    font-size: 24px;
+
+    display: block;
+}
+
+/* NYU */
+.experienceBox6 {
+    width: 90%;
+    height: 160px;
+
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+    background-image: url("/experience/nyu/nyu-logo.jpg");
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 0px 0px 16px -8px rgb(100, 100, 100);
+    border: 1px solid rgb(201, 201, 201);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experienceBox6:hover:before {
+    width: 100%;
+    height: 100%;
+    content: "";
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    
+    display: block;
+}
+
+.experienceBox6:hover:after {
+    position: absolute;
+    content: "BS, Integrated Digital Media";
+    color: white;
+    font-size: 24px;
+
+    display: block;
 }

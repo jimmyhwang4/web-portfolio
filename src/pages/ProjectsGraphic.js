@@ -16,6 +16,10 @@ function ProjectsGraphic() {
                     </div>
                     <div className="container2ProjectGraphic">
                         <div className="galleryContainer">
+                            <img src="/projects/graphic-design/YLA-Apply-Now-1.jpg"></img>
+                            <img src="/projects/graphic-design/YLA-Apply-Now-2.jpg"></img>
+                            <img src="/projects/graphic-design/YLA-Apply-Now-3.jpg"></img>
+                            <img src="/projects/graphic-design/GT-Email.jpg"></img>
                             <img src="/projects/graphic-design/navi1.jpg"></img>
                             <img src="/projects/graphic-design/navi2.jpg"></img>
                             <img src="/projects/graphic-design/navi3.jpg"></img>

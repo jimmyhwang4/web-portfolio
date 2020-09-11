@@ -24,6 +24,7 @@ function HeaderProjects() {
                 <div className="socialMenu">
                     <a href="https://github.com/jimmyhwang4" target="_blank"><img src="/socials/github.png"></img></a>
                     <a href="https://www.linkedin.com/in/jimmy-hwang-564958162/" target="_blank"><img src="/socials/linkedin.png"></img></a>
+                    <a href="mailto:jimmyhwang@nyu.edu"><img src="/socials/email.png"></img></a>
                 </div>
             </div>
         </div>
