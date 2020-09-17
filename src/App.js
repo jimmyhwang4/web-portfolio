@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import ProjectsMobile from "./pages/ProjectsMobile";
 import ProjectsWebImager from "./pages/ProjectsWebImager";
 import ProjectsWebCovid19 from "./pages/ProjectsWebCovid19";
 import ProjectsGraphic from "./pages/ProjectsGraphic";
@@ -18,6 +19,9 @@ function App() {
       <Switch>
         <Route to exact path="/">
           <Home />
+        </Route>
+        <Route to exact path="/projects">
+          <ProjectsMobile />
         </Route>
         <Route to exact path="/projects/web-development">
           <Projects />

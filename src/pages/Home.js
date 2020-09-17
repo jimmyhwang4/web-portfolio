@@ -1,14 +1,20 @@
 import React from 'react';
 
 import HeaderHome from '../components/HeaderHome';
+import HeaderMobile from '../components/HeaderMobile';
 import Footer from '../components/Footer';
 
 function Home() {
     return (
         <div>
             <HeaderHome />
+            <div className="headerMobile">
+                <HeaderMobile />
+            </div>
             <div className="wrapper">
-                <img src="/home/filler.jpg" width="100%" height="auto"></img>
+                <div className="homeImg">
+                    <img src="/home/filler.jpg" width="100%" height="auto"></img>
+                </div>
                 <div className="container">
 
                     <div className="container2">

@@ -41,7 +41,7 @@ class HeaderHome extends React.Component {
                                 <a href="/experience">EXPERIENCE</a>
                             </div>
                             <div className="headerContent">
-                                <a href="/">RESUME</a>
+                                <a href="/Jeehun_Hwang_Resume.pdf" target="_blank">RESUME</a>
                             </div>
                         </div>
                         <div className="socialMenu">
@@ -51,8 +51,6 @@ class HeaderHome extends React.Component {
                         </div>
                     </div>
                 </header>
-
-                <div className="headerMobile"></div>
 
             </div>
         )

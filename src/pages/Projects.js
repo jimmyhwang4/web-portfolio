@@ -2,12 +2,16 @@ import React from 'react';
 
 import HeaderProjects from '../components/HeaderProjects';
 import ProjectsMenu from '../components/ProjectsMenu';
+import HeaderMobile from '../components/HeaderMobile';
 import Footer from '../components/Footer';
 
 function Projects() {
     return (
         <div>
             <HeaderProjects />
+            <div className="headerMobile">
+                <HeaderMobile />
+            </div>
             <ProjectsMenu />
             <div className="wrapperProject">
                 <div className="containerProject">

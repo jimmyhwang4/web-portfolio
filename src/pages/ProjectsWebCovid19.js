@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HeaderProjects from '../components/HeaderProjects';
+import HeaderMobile from '../components/HeaderMobile';
 import ProjectsMenu from '../components/ProjectsMenu';
 import Footer from '../components/Footer';
 
@@ -8,6 +9,9 @@ function ProjectsWebCovid19() {
     return (
         <div>
             <HeaderProjects />
+            <div className="headerMobile">
+                <HeaderMobile />
+            </div>
             <ProjectsMenu />
             <div className="wrapperProject">
                 <div className="containerProject">

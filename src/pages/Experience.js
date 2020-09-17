@@ -1,12 +1,16 @@
 import React from 'react';
 
 import HeaderExperience from '../components/HeaderExperience';
+import HeaderMobile from '../components/HeaderMobile';
 import Footer from '../components/Footer';
 
 function Experience() {
     return (
         <div>
             <HeaderExperience />
+            <div className="headerMobile">
+                <HeaderMobile />
+            </div>
             <div className="wrapper">
                 <div className="experienceHeader"></div>
                 <div className="container">

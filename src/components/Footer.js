@@ -13,7 +13,7 @@ function Footer() {
                     <a href="/">Home</a>
                     <a href="/projects/web-development">Projects</a>
                     <a href="/experience">Experience</a>
-                    <a href="/">Resume</a>
+                    <a href="/Jeehun_Hwang_Resume.pdf" target="_blank">Resume</a>
                 </div>
                 <div className="footerColumn">
                     <h4>Works</h4>
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footerContainer">
-                <p>Developed by Jimmy Hwang using React.js and [insert node modules]</p>
+                <p>Designed and developed by Jimmy Hwang using React.js</p>
             </div>
         </div>
     )
