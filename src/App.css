@@ -1153,7 +1153,7 @@ header.scroll {
         font-size: 16px;
     }
 
-    .projectPageWebImg img {
+    #projectPageWebImg {
         width: calc(50% - 18px);
         height: auto;
         margin-bottom: 36px;
@@ -1161,9 +1161,10 @@ header.scroll {
         border: 1px solid rgb(201, 201, 201);
     }
     
-    .projectPageMobileImg img {
+    #projectPageMobileImg {
         width: calc(33.33% - 27px);
         height: auto;
+        margin-bottom: 36px;
     
         border: 1px solid rgb(201, 201, 201);
     }
@@ -1187,7 +1188,7 @@ header.scroll {
         font-size: 12px;
     }
 
-    .projectPageWebImg img {
+    #projectPageWebImg img {
         width: calc(50% - 18px);
         height: auto;
         margin-bottom: 36px;
@@ -1195,9 +1196,10 @@ header.scroll {
         border: 1px solid rgb(201, 201, 201);
     }
     
-    .projectPageMobileImg img {
+    #projectPageMobileImg {
         width: calc(33.33% - 27px);
         height: auto;
+        margin-bottom: 36px;
     
         border: 1px solid rgb(201, 201, 201);
     }
@@ -1221,7 +1223,7 @@ header.scroll {
         font-size: 16px;
     }
 
-    .projectPageWebImg img {
+    #projectPageWebImg img {
         width: 100%;
         height: auto;
         margin-bottom: 36px;
@@ -1229,10 +1231,9 @@ header.scroll {
         border: 1px solid rgb(201, 201, 201);
     }
     
-    .projectPageMobileImg img {
+    #projectPageMobileImg {
         width: calc(50% - 18px);
         height: auto;
-
         margin-bottom: 36px;
     
         border: 1px solid rgb(201, 201, 201);
@@ -1257,7 +1258,7 @@ header.scroll {
         font-size: 13px;
     }
 
-    .projectPageWebImg img {
+    #projectPageWebImg img {
         width: 100%;
         height: auto;
         margin-bottom: 36px;
@@ -1265,10 +1266,9 @@ header.scroll {
         border: 1px solid rgb(201, 201, 201);
     }
     
-    .projectPageMobileImg img {
+    #projectPageMobileImg {
         width: calc(50% - 18px);
         height: auto;
-
         margin-bottom: 36px;
     
         border: 1px solid rgb(201, 201, 201);
@@ -1293,7 +1293,7 @@ header.scroll {
         font-size: 13px;
     }
 
-    .projectPageWebImg img {
+    #projectPageWebImg img {
         width: 100%;
         height: auto;
         margin-bottom: 36px;
@@ -1301,10 +1301,9 @@ header.scroll {
         border: 1px solid rgb(201, 201, 201);
     }
     
-    .projectPageMobileImg img {
+    #projectPageMobileImg {
         width: calc(50% - 18px);
         height: auto;
-
         margin-bottom: 36px;
     
         border: 1px solid rgb(201, 201, 201);
@@ -1606,12 +1605,12 @@ header.scroll {
     width: 100%;
     height: auto;
 
+    margin-bottom: 36px;
+
     border: 1px solid rgb(201, 201, 201);
 }
 
 .projectPageWeb {
-    margin-top: 36px;
-
     width: 100%;
 
     display: flex;
@@ -1620,19 +1619,6 @@ header.scroll {
 }
 
 .projectPageMobile {
-    margin-top: 36px;
-    
-    width: 100%;
-}
-
-.projectPageWebImg{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.projectPageMobileImg{
     width: 100%;
 
     display: flex;
