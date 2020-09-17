@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footerContainer">
-                <p>Developed with React.js and [insert node modules]</p>
+                <p>Developed by Jimmy Hwang using React.js and [insert node modules]</p>
             </div>
         </div>
     )

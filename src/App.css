@@ -10,6 +10,37 @@ h1 {
 /* HEADER */
 
 @media only screen and (min-width: 1025px) {
+    header {
+        position: fixed;
+        z-index: 999;
+    
+        width: 100%;
+        height: 56px;
+        color: black;
+        font-size: 18px;
+    
+        display: flex;
+    
+        transition: 0.15s linear;
+    }
+    
+    .headerEtc {
+        position: fixed;
+        z-index: 998;
+    
+        width: 100%;
+        height: 56px;
+    
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    
+        box-shadow: 0 0 14px -8px black;
+    
+        display: flex;
+    }
+
     .headerLogo {
         font-size: 18px;
     }
@@ -49,6 +80,37 @@ h1 {
 }
 
 @media only screen and (max-width: 1024px) {
+    header {
+        position: fixed;
+        z-index: 999;
+    
+        width: 100%;
+        height: 48px;
+        color: black;
+        font-size: 18px;
+    
+        display: flex;
+    
+        transition: 0.15s linear;
+    }
+    
+    .headerEtc {
+        position: fixed;
+        z-index: 998;
+    
+        width: 100%;
+        height: 48px;
+    
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    
+        box-shadow: 0 0 14px -8px black;
+    
+        display: flex;
+    }
+
     .headerLogo {
         font-size: 16px;
     }
@@ -88,12 +150,43 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        z-index: 999;
+    
+        width: 100%;
+        height: 44px;
+        color: black;
+        font-size: 18px;
+    
+        display: flex;
+    
+        transition: 0.15s linear;
+    }
+    
+    .headerEtc {
+        position: fixed;
+        z-index: 998;
+    
+        width: 100%;
+        height: 44px;
+    
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    
+        box-shadow: 0 0 14px -8px black;
+    
+        display: flex;
+    }
+
     .headerLogo {
         font-size: 14px;
     }
 
     .headerMenu {
-        width: 55%;
+        width: 300px;
     
         display: flex;
         flex-direction: row;
@@ -113,6 +206,78 @@ h1 {
     }
 
     .socialMenu {
+        width: 70px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .socialMenu img {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        position: fixed;
+        z-index: 999;
+    
+        width: 100%;
+        height: 44px;
+        color: black;
+        font-size: 18px;
+    
+        display: flex;
+    
+        transition: 0.15s linear;
+    }
+    
+    .headerEtc {
+        position: fixed;
+        z-index: 998;
+    
+        width: 100%;
+        height: 44px;
+    
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    
+        box-shadow: 0 0 14px -8px black;
+    
+        display: flex;
+    }
+
+    .headerLogo {
+        font-size: 12px;
+    }
+
+    .headerMenu {
+        width: 300px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .headerContentSelected a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(116, 255, 220);
+    }
+
+    .headerContent a {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .socialMenu {
+        display: none !important;
+
         width: 76px;
     
         display: flex;
@@ -126,18 +291,90 @@ h1 {
     }
 }
 
-header {
-    position: fixed;
-    z-index: 999;
+@media only screen and (max-width: 420px) {
+    header {
+        display: none !important;
 
-    width: 100%;
-    height: 56px;
-    color: black;
-    font-size: 18px;
+        position: fixed;
+        z-index: 999;
+    
+        width: 100%;
+        height: 44px;
+        color: black;
+        font-size: 18px;
+    
+        display: flex;
+    
+        transition: 0.15s linear;
+    }
+    
+    .headerEtc {
+        display: none !important;
 
-    display: flex;
+        position: fixed;
+        z-index: 998;
+    
+        width: 100%;
+        height: 44px;
+    
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(219, 219, 219);
+    
+        box-shadow: 0 0 14px -8px black;
+    
+        display: flex;
+    }
 
-    transition: 0.15s linear;
+    .headerLogo {
+        font-size: 12px;
+    }
+
+    .headerMenu {
+        width: 300px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .headerContentSelected a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(116, 255, 220);
+    }
+
+    .headerContent a {
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .socialMenu {
+        display: none !important;
+
+        width: 76px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .socialMenu img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .headerMobile {
+        position: fixed;
+        z-index: 999;
+
+        width: 100%;
+        height: 44px;
+        
+        background: blue;
+    }
 }
 
 header.scroll {
@@ -146,23 +383,6 @@ header.scroll {
     backdrop-filter: blur(8px);
 
     box-shadow: 0 0 14px -8px black;
-}
-
-.headerEtc {
-    position: fixed;
-    z-index: 998;
-
-    width: 100%;
-    height: 56px;
-
-    background-color: white;
-    color: black;
-    font-size: 18px;
-    border-bottom: 1px solid rgb(219, 219, 219);
-
-    box-shadow: 0 0 14px -8px black;
-
-    display: flex;
 }
 
 .headerContainer {
@@ -246,6 +466,10 @@ header.scroll {
         font-size: 16px;
     }
 
+    .footerColumn a:hover {
+        color: rgb(151, 151, 151);
+    }
+
     .footerContainer {
         width: calc(100% - 80px);
     
@@ -290,6 +514,10 @@ header.scroll {
         font-size: 12px;
     }
 
+    .footerColumn a:hover {
+        color: rgb(151, 151, 151);
+    }
+
     .footerContainer {
         width: calc(100% - 80px);
     
@@ -301,6 +529,71 @@ header.scroll {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerColumn h2 {
+        margin-bottom: 12px;
+
+        font-size: 16px;
+        color: white;
+    }
+    
+    .footerColumn h4 {
+        margin-bottom: 12px;
+    
+        font-size: 12px;
+        color: rgb(151, 151, 151);
+    }
+    
+    .footerColumn p {
+        margin-top: -8px;
+
+        font-size: 9px;
+        color: rgb(221, 221, 221);
+    }
+
+    .footerColumn a {
+        margin-bottom: 8px;
+        text-decoration: none;
+    
+        color: rgb(221, 221, 221);
+        font-size: 9px;
+    }
+
+    .footerColumn a:hover {
+        color: rgb(151, 151, 151);
+    }
+
+    .footerContainer {
+        width: calc(100% - 80px);
+    
+        margin-bottom: 30px;
+        
+        font-size: 9px;
+        color: white;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .footerWrapper {
+
+        display: none !important;
+        position: absolute;
+        z-index: 999;
+    
+        width: 100%;
+        height: 360px;
+        background: rgb(39, 39, 39);
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -353,7 +646,7 @@ header.scroll {
         width: 30%;
         height: 180px;
         border: 1px solid rgb(219, 219, 219);
-        border-radius: 5%;
+        border-radius: 15px;
     
         font-size: 18px;
         text-decoration: none;
@@ -367,6 +660,13 @@ header.scroll {
         box-shadow: 0 0 18px -8px black;
     
         transition: 0.1s linear;
+    }
+
+    .passionsBox:hover {
+        width: 32%;
+        height: 190px;
+    
+        font-size: 20px;
     }
 
     .skillsContainer {
@@ -404,7 +704,7 @@ header.scroll {
         width: 29%;
         height: 140px;
         border: 1px solid rgb(219, 219, 219);
-        border-radius: 5%;
+        border-radius: 15px;
     
         font-size: 14px;
         text-decoration: none;
@@ -418,6 +718,13 @@ header.scroll {
         box-shadow: 0 0 18px -8px black;
     
         transition: 0.1s linear;
+    }
+
+    .passionsBox:hover {
+        width: 32%;
+        height: 150px;
+    
+        font-size: 16px;
     }
 
     .skillsContainer {
@@ -445,7 +752,7 @@ header.scroll {
         width: 80%;
         height: 100px;
         border: 1px solid rgb(219, 219, 219);
-        border-radius: 0%;
+        border-radius: 15px;
     
         font-size: 14px;
         text-decoration: none;
@@ -459,6 +766,13 @@ header.scroll {
         box-shadow: 0 0 8px -3px black;
     
         transition: 0.1s linear;
+    }
+
+    .passionsBox:hover {
+        width: 80%;
+        height: 110px;
+    
+        font-size: 16px;
     }
 
     .skillsContainer {
@@ -505,13 +819,6 @@ header.scroll {
 
     margin-top: 60px;
     margin-bottom: 20px;
-}
-
-.passionsBox:hover {
-    width: 32%;
-    height: 200px;
-
-    font-size: 20px;
 }
 
 .skillsRow {
@@ -614,7 +921,7 @@ header.scroll {
     .projectsMenuWrapper {
         position: fixed;
         z-index: 999;
-        margin-top: 56px;
+        margin-top: 48px;
     
         width: 208px;
         height: 100vh;
@@ -669,7 +976,7 @@ header.scroll {
     .projectsMenuWrapper {
         position: fixed;
         z-index: 999;
-        margin-top: 56px;
+        margin-top: 44px;
     
         width: 168px;
         height: 100vh;
@@ -720,6 +1027,26 @@ header.scroll {
     }
 }
 
+@media only screen and (max-width: 420px) {
+    .projectsMenuWrapper {
+        display: none !important;
+
+        position: fixed;
+        z-index: 999;
+        margin-top: 44px;
+    
+        width: 168px;
+        height: 100vh;
+        background: white;
+        border-right: 1px solid rgb(219, 219, 219);
+        
+        display: flex;
+        flex-direction: column;
+    
+        box-shadow: 8px 0px 8px -12px black;
+    }
+}
+
 .projectsMenuContainer:hover {
     background-color: rgb(219, 219, 219);
 }
@@ -746,13 +1073,28 @@ header.scroll {
 
         font-size: 16px;
     }
+
+    .projectPageWebImg img {
+        width: calc(50% - 18px);
+        height: auto;
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+    
+    .projectPageMobileImg img {
+        width: calc(33.33% - 27px);
+        height: auto;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
 }
 
 @media only screen and (max-width: 1024px) {
     .containerProject {
         width: calc(100% - 208px);
     
-        margin-top: 56px;
+        margin-top: 48px;
         margin-left: 208px;
     }
 
@@ -765,13 +1107,28 @@ header.scroll {
 
         font-size: 12px;
     }
+
+    .projectPageWebImg img {
+        width: calc(50% - 18px);
+        height: auto;
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+    
+    .projectPageMobileImg img {
+        width: calc(33.33% - 27px);
+        height: auto;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .containerProject {
         width: calc(100% - 168px);
     
-        margin-top: 56px;
+        margin-top: 44px;
         margin-left: 168px;
     }
 
@@ -783,6 +1140,95 @@ header.scroll {
         margin-bottom: 36px;
 
         font-size: 16px;
+    }
+
+    .projectPageWebImg img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+    
+    .projectPageMobileImg img {
+        width: calc(50% - 18px);
+        height: auto;
+
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .containerProject {
+        width: calc(100% - 168px);
+    
+        margin-top: 44px;
+        margin-left: 168px;
+    }
+
+    .webBoxContainer {
+        width: 100%;
+        height: 200px;
+    
+        margin-right: 36px;
+        margin-bottom: 36px;
+
+        font-size: 13px;
+    }
+
+    .projectPageWebImg img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+    
+    .projectPageMobileImg img {
+        width: calc(50% - 18px);
+        height: auto;
+
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .containerProject {
+        width: 100%;
+    
+        margin-top: 44px;
+        margin-left: 0px;
+    }
+
+    .webBoxContainer {
+        width: 100%;
+        height: 200px;
+    
+        margin-right: 36px;
+        margin-bottom: 36px;
+
+        font-size: 13px;
+    }
+
+    .projectPageWebImg img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
+    }
+    
+    .projectPageMobileImg img {
+        width: calc(50% - 18px);
+        height: auto;
+
+        margin-bottom: 36px;
+    
+        border: 1px solid rgb(201, 201, 201);
     }
 }
 
@@ -835,7 +1281,7 @@ header.scroll {
     background-position: center;
 
     border: 1px solid rgb(219, 219, 219);
-    border-radius: 5%;
+    border-radius: 20px;
 
     color: transparent;
 
@@ -874,7 +1320,7 @@ header.scroll {
     background-position: center;
 
     border: 1px solid rgb(219, 219, 219);
-    border-radius: 5%;
+    border-radius: 20px;
 
     color: transparent;
 
@@ -913,7 +1359,7 @@ header.scroll {
     background-position: center;
 
     border: 1px solid rgb(219, 219, 219);
-    border-radius: 5%;
+    border-radius: 20px;
 
     color: transparent;
 
@@ -951,7 +1397,7 @@ header.scroll {
     background-position: center;
 
     border: 1px solid rgb(219, 219, 219);
-    border-radius: 5%;
+    border-radius: 20px;
 
     color: transparent;
 
@@ -989,7 +1435,7 @@ header.scroll {
     background-position: center;
 
     border: 1px solid rgb(219, 219, 219);
-    border-radius: 5%;
+    border-radius: 20px;
 
     color: transparent;
 
@@ -1079,27 +1525,12 @@ header.scroll {
     justify-content: space-between;
 }
 
-.projectPageWebImg img {
-    width: calc(50% - 18px);
-    height: auto;
-    margin-bottom: 36px;
-
-    border: 1px solid rgb(201, 201, 201);
-}
-
 .projectPageMobileImg{
     width: 100%;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.projectPageMobileImg img {
-    width: calc(33.33% - 27px);
-    height: auto;
-
-    border: 1px solid rgb(201, 201, 201);
 }
 
 /* GRAPHIC DESIGN */
@@ -1150,6 +1581,23 @@ header.scroll {
         -moz-column-count: 2 !important;
         -moz-column-gap: 36px;
         column-count: 2 !important;
+        column-gap: 36px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .galleryContainer {
+        width: calc(100% - 36px);
+        margin-top: 36px;
+        margin-left: 36px;
+        padding: 0;
+        line-height: 0;
+    
+        -webkit-column-count: 1 !important;
+        -webkit-column-gap: 36px;
+        -moz-column-count: 1 !important;
+        -moz-column-gap: 36px;
+        column-count: 1 !important;
         column-gap: 36px; 
     }
 }
@@ -1217,6 +1665,23 @@ header.scroll {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .galleryContainerPhoto {
+        width: calc(100% - 36px);
+        margin-top: 36px;
+        margin-left: 36px;
+        padding: 0;
+        line-height: 0;
+    
+        -webkit-column-count: 1 !important;
+        -webkit-column-gap: 36px;
+        -moz-column-count: 1 !important;
+        -moz-column-gap: 36px;
+        column-count: 1 !important;
+        column-gap: 36px; 
+    }
+}
+
 .galleryContainerPhoto img {
     width: 100%;
     height: auto;
@@ -1266,6 +1731,20 @@ header.scroll {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .soundcloudContainer {
+        width: 100%;
+        height: 100px;
+    }
+
+    .youtubeContainer {
+        width: calc(100% - 36px) !important;
+        height: 200px !important;
+        margin-bottom: 36px;
+        margin-left: 36px;
+    }
+}
+
 .musicContainer {
     width: calc(100% - 36px);
 
@@ -1292,6 +1771,17 @@ header.scroll {
 
 /* EXPERIENCE */
 @media only screen and (min-width: 1025px) {
+    .experienceHeader {
+        width: 100%;
+        height: 200px;
+    
+        margin-top: 57px;
+        
+        background-image: url("/experience/experience.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
     .experienceBox {
         width: 90%;
         height: 160px;
@@ -1301,6 +1791,17 @@ header.scroll {
 }
 
 @media only screen and (max-width: 1024px) {
+    .experienceHeader {
+        width: 100%;
+        height: 200px;
+    
+        margin-top: 49px;
+        
+        background-image: url("/experience/experience.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
     .experienceBox {
         width: 90%;
         height: 120px;
@@ -1310,9 +1811,60 @@ header.scroll {
 }
 
 @media only screen and (max-width: 768px) {
+    .experienceHeader {
+        width: 100%;
+        height: 200px;
+    
+        margin-top: 45px;
+        
+        background-image: url("/experience/experience.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
     .experienceBox {
         width: 90%;
         height: 100px;
+
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .experienceHeader {
+        width: 100%;
+        height: 200px;
+    
+        margin-top: 45px;
+        
+        background-image: url("/experience/experience.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .experienceBox {
+        width: 90%;
+        height: 80px;
+
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .experienceHeader {
+        width: 100%;
+        height: 200px;
+    
+        margin-top: 44px;
+        
+        background-image: url("/experience/experience.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .experienceBox {
+        width: 90%;
+        height: 80px;
 
         margin-bottom: 40px;
     }
@@ -1324,17 +1876,6 @@ header.scroll {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.experienceHeader {
-    width: 100%;
-    height: 200px;
-
-    margin-top: 57px;
-    
-    background-image: url("/experience/experience.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /* JANG SOO SUSHI BAR */
