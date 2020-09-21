@@ -126,7 +126,7 @@ h1 {
     .headerContentSelected a {
         font-size: 16px;
         text-decoration: none;
-        color: rgb(116, 255, 220);
+        color: rgb(175, 175, 175);
     }
 
     .headerContent a {
@@ -196,7 +196,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(116, 255, 220);
+        color: rgb(175, 175, 175);
     }
 
     .headerContent a {
@@ -265,7 +265,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(116, 255, 220);
+        color: rgb(175, 175, 175);
     }
 
     .headerContent a {
@@ -290,7 +290,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     header {
         display: none !important;
 
@@ -341,7 +341,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(116, 255, 220);
+        color: rgb(175, 175, 175);
     }
 
     .headerContent a {
@@ -580,7 +580,7 @@ header.scroll {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     .footerWrapper {
 
         display: none !important;
@@ -785,7 +785,7 @@ header.scroll {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     .passionsRow {
         width: 100%;
         height: 420px;
@@ -1106,7 +1106,7 @@ header.scroll {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     .projectsMenuWrapper {
         display: none !important;
 
@@ -1188,7 +1188,7 @@ header.scroll {
         font-size: 12px;
     }
 
-    #projectPageWebImg img {
+    #projectPageWebImg {
         width: calc(50% - 18px);
         height: auto;
         margin-bottom: 36px;
@@ -1223,7 +1223,7 @@ header.scroll {
         font-size: 16px;
     }
 
-    #projectPageWebImg img {
+    #projectPageWebImg {
         width: 100%;
         height: auto;
         margin-bottom: 36px;
@@ -1258,7 +1258,7 @@ header.scroll {
         font-size: 13px;
     }
 
-    #projectPageWebImg img {
+    #projectPageWebImg {
         width: 100%;
         height: auto;
         margin-bottom: 36px;
@@ -1275,7 +1275,7 @@ header.scroll {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     .containerProject {
         width: 100%;
     
@@ -1293,8 +1293,9 @@ header.scroll {
         font-size: 13px;
     }
 
-    #projectPageWebImg img {
-        width: 100%;
+    #projectPageWebImg {
+        width: calc(100% - 72px) !important;
+        margin-left: 36px !important;
         height: auto;
         margin-bottom: 36px;
     
@@ -1336,6 +1337,33 @@ header.scroll {
         display: flex;
         flex-direction: column;
     }
+
+    .container2ProjectPage {
+        width: 100% !important;
+        margin-top: 36px !important;
+        margin-left: 0px !important;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projectPageMobile {
+        width: calc(100% - 72px) !important;
+        margin-left: 36px !important;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .h2Left {
+        margin-left: 36px !important;
+    }
+}
+
+.h2Left {
+    margin-left: 0px;
 }
 
 .wrapperProject {
@@ -2093,7 +2121,7 @@ header.scroll {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
     .experienceHeader {
         width: 100%;
         height: 200px;

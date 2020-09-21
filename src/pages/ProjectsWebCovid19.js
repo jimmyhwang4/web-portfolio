@@ -18,13 +18,15 @@ function ProjectsWebCovid19() {
             <div className="wrapperProject">
                 <div className="containerProject">
                     <div className="containerTitle">
-                        <h4><a href="/projects/web-development">Web Design & Development</a> ➝ COVID-19 Tracker</h4>
+                        <h4><a href="/projects/web-development">Web Design & Development</a> ➝ COVID-19</h4>
                     </div>
                     <div className="container2ProjectPage">
                         <video autoPlay controls muted>
                             <source src="/projects/web-dev/covid-19/covid-19.mp4" controls type="video/mp4" />
                         </video>
-                        <h2>Web View</h2>
+                        <div className="h2Left">
+                            <h2>Web View</h2>
+                        </div>
                         <div className="projectPageWeb">
                             <div id="projectPageWebImg">
                                 <ModalImage

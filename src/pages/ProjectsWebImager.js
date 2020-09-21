@@ -24,7 +24,9 @@ function ProjectsWebImager() {
                         <video autoPlay controls muted>
                             <source src="/projects/web-dev/imager/imager.mp4" controls type="video/mp4" />
                         </video>
-                        <h2>Web View</h2>
+                        <div className="h2Left">
+                            <h2>Web View</h2> 
+                        </div>
                         <div className="projectPageWeb">
                             <div id="projectPageWebImg">
                                 <ModalImage
@@ -51,7 +53,9 @@ function ProjectsWebImager() {
                                 />
                             </div>
                         </div>
-                        <h2>Mobile View</h2>
+                        <div className="h2Left">
+                            <h2>Mobile View</h2>
+                        </div>
                         <div className="projectPageMobile">
                             <div id="projectPageMobileImg">
                                 <ModalImage

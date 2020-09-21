@@ -128,7 +128,7 @@ function ProjectsGraphic() {
                                 small="/projects/graphic-design/creative-coding.jpg"
                                 large="/projects/graphic-design/creative-coding.jpg"
                                 hideDownload="true"
-                            />;
+                            />
                         </div>
                     </div>
                 </div>
