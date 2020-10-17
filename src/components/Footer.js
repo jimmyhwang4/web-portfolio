@@ -6,7 +6,7 @@ function Footer() {
             <div className="footerContainer">
                 <div className="footerColumn">
                     <h2>JIMMY HWANG</h2>
-                    <p>Front-end developer graduated from New York University with a BS in Integrated Digital Media</p>
+                    <p>Designer and developer graduated from New York University with a BS in Integrated Digital Media</p>
                 </div>
                 <div className="footerColumn">
                     <h4>Explore</h4>
