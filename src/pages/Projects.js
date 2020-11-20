@@ -16,7 +16,7 @@ function Projects() {
             <div className="wrapperProject">
                 <div className="containerProject">
                     <div className="containerTitle">
-                        <h4>Web Design & Development</h4>
+                        <h4>Web Development</h4>
                     </div>
                     <div className="container2Project">
                         <div className="webBoxContainer">

@@ -18,10 +18,28 @@ function ProjectsGraphic() {
             <div className="wrapperProject">
                 <div className="containerProject">
                     <div className="containerTitle">
-                        <h4>Graphic Design</h4>
+                        <h4>Graphic & Web Design</h4>
                     </div>
                     <div className="container2ProjectGraphic">
                         <div id="galleryContainer">
+                            <ModalImage
+                                small="/projects/graphic-design/CLI-Home.jpg"
+                                large="/projects/graphic-design/CLI-Home.jpg"
+                                hideDownload="true"
+                                hideZoom="true"
+                            />
+                            <ModalImage
+                                small="/projects/graphic-design/CLI-LOGO-SPREAD.jpg"
+                                large="/projects/graphic-design/CLI-LOGO-SPREAD.jpg"
+                                hideDownload="true"
+                                hideZoom="true"
+                            />
+                            <ModalImage
+                                small="/projects/graphic-design/CLI-LOGO-PROCESS.jpg"
+                                large="/projects/graphic-design/CLI-LOGO-PROCESS.jpg"
+                                hideDownload="true"
+                                hideZoom="true"
+                            />
                             <ModalImage
                                 small="/projects/graphic-design/YLA-Apply-Now-1.jpg"
                                 large="/projects/graphic-design/YLA-Apply-Now-1.jpg"

@@ -18,7 +18,7 @@ function Footer() {
                 <div className="footerColumn">
                     <h4>Works</h4>
                     <a href="/projects/web-development">Web Development</a>
-                    <a href="/projects/graphic-design">Graphic Design</a>
+                    <a href="/projects/graphic-design">Graphic & Web Design</a>
                     <a href="/projects/photography">Photography</a>
                     <a href="/projects/music-production">Music Production</a>
                     <a href="/projects/sound-design">Sound Design</a>

@@ -20,7 +20,7 @@ function ProjectsMenu() {
             </a>
             <a href="/projects/graphic-design" className="projectsMenuContainer">
                 <div className="projectsMenuContent">
-                    <p>Graphic Design</p>
+                    <p>Graphic & Web Design</p>
                 </div>
             </a>
             <a href="/projects/photography" className="projectsMenuContainer">

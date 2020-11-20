@@ -13,6 +13,8 @@ h1 {
     header {
         position: fixed;
         z-index: 999;
+
+        background-color: white;
     
         width: 100%;
         height: 56px;
@@ -56,7 +58,7 @@ h1 {
     .headerContentSelected a {
         font-size: 18px;
         text-decoration: none;
-        color: rgb(175, 175, 175);
+        color: rgb(95, 133, 189);
     }
 
     .headerContent a {
@@ -83,6 +85,8 @@ h1 {
     header {
         position: fixed;
         z-index: 999;
+
+        background-color: white;
     
         width: 100%;
         height: 48px;
@@ -126,7 +130,7 @@ h1 {
     .headerContentSelected a {
         font-size: 16px;
         text-decoration: none;
-        color: rgb(175, 175, 175);
+        color: rgb(95, 133, 189);
     }
 
     .headerContent a {
@@ -153,6 +157,8 @@ h1 {
     header {
         position: fixed;
         z-index: 999;
+
+        background-color: white;
     
         width: 100%;
         height: 44px;
@@ -196,7 +202,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(175, 175, 175);
+        color: rgb(95, 133, 189);
     }
 
     .headerContent a {
@@ -223,6 +229,8 @@ h1 {
     header {
         position: fixed;
         z-index: 999;
+
+        background-color: white;
     
         width: 100%;
         height: 44px;
@@ -265,7 +273,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(175, 175, 175);
+        color: rgb(95, 133, 189);
     }
 
     .headerContent a {
@@ -296,6 +304,8 @@ h1 {
 
         position: fixed;
         z-index: 999;
+
+        background-color: white;
     
         width: 100%;
         height: 44px;
@@ -341,7 +351,7 @@ h1 {
     .headerContentSelected a {
         font-size: 14px;
         text-decoration: none;
-        color: rgb(175, 175, 175);
+        color: rgb(95, 133, 189);
     }
 
     .headerContent a {
@@ -589,7 +599,7 @@ header.scroll {
     
         width: 100%;
         height: 360px;
-        background: rgb(39, 39, 39);
+        background: rgb(0, 4, 39);
     
         display: flex;
         align-items: center;
@@ -603,7 +613,7 @@ header.scroll {
 
     width: 100%;
     height: 360px;
-    background: rgb(39, 39, 39);
+    background: rgb(0, 4, 39);
 
     display: flex;
     align-items: center;
